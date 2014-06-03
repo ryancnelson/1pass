@@ -13,6 +13,7 @@ class App
     @defaultDatabasePaths ?= [
       '~/Library/Application Support/1Password/1Password.agilekeychain'
       '~/Dropbox/1Password.agilekeychain'
+      '~/Dropbox/1Password/1Password.agilekeychain'
     ]
 
   run: (done) ->
